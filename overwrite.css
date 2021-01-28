@@ -1,0 +1,10 @@
+/* overwrite.css */
+/* 
+Include this last. 
+This will overwrite any declared 
+css rules in other general files. 
+*/
+body {
+    background-image: linear-gradient(-225deg, #a8dadc, #eddcd2, #f2cc8f);
+    z-index: 1;
+}
